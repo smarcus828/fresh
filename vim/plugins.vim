@@ -1,4 +1,4 @@
-lug 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 Plug 'elzr/vim-json'
 Plug 'godlygeek/tabular'
 Plug 'hynek/vim-python-pep8-indent'
