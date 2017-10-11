@@ -19,12 +19,12 @@ alias l="ls -la"
 alias l1h="ls -1t | head"
 alias scat="egrep -v '^(\s*)?(#|$)' "
 alias cd..="cd .."
-alias cda='cd /home/steven.marcus/ansible'
-alias cds='cd /home/steven.marcus/puppet/sandbox/'
-alias cdw='cd /home/steven.marcus/work/'
+alias cda='cd /Users/steven.marcus/ansible'
+alias cds='cd /Users/steven.marcus/puppet/sandbox/'
+alias cdw='cd /Users/steven.marcus/work/'
 
 function sshh() {
-  cd /home/steven.marcus/zzwork/setup_bash_profile/
+  cd /Users/steven.marcus/zzwork/setup_bash_profile/
   ./setup_bash.sh $1
   ssh $1
 }
